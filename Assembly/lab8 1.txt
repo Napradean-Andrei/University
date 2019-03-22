@@ -1,0 +1,64 @@
+bits 32
+
+global start        
+
+; declararea functiilor externe folosite de program
+extern exit, scanf, printf  ; adaugam printf ca functie externa            
+import exit msvcrt.dll    
+import printf msvcrt.dll
+import scanf msvcrt.dll    ; indicam asamblorului ca functia printf se gaseste in libraria msvcrt.dll
+                          
+segment data use32 class=data
+	
+    a dd  0
+    b dd  0
+    k dw  4
+	format  db "%d", 0  ; 
+	
+segment code use32 class=code
+	start:;(a/b)*k
+        mov EAX, 0
+        mov EBX, 0
+        mov ECX, 0
+        push dword a       
+        push dword format
+        call [scanf]        ; apelam functia scanf pentru citire
+        add esp, 4*2 
+        push dword b       
+        push dword format
+        call [scanf]       ; apelam functia scanf pentru citire 
+		add esp, 4*2
+        
+        mov  EAX, [a] ;EAX = a
+        mov  EBX, [b]
+        mov EDX, 0
+        div  dword EBX 
+        mov EDX, 0
+        mov  CX, [k] 
+        mul  word CX    
+        
+		
+		; salvam valoarea registrilor deoarece apelul functiei sistem printf va modifica valoarea acestora
+		; folosim instructiunea PUSHAD care salveaza pe stiva valorile mai multor registrii, printre care EAX, ECX, EDX si EBX 
+		; in acest exemplu este important sa salvam doar valoarea registrului EAX, dar instructiunea poate fi aplicata generic
+		PUSHAD
+	   
+		; vom apela printf(format, eax) => vom afisa valoarea din eax
+		; punem parametrii pe stiva de la dreapta la stanga
+ 		push dword eax
+		push dword format ; ! pe stiva se pune adresa string-ului, nu valoarea
+		call [printf]      ; apelam functia printf pentru afisare
+		add esp, 4*2; eliberam parametrii de pe stiva ; 4 = dimensiunea unui dword; 2 = nr de parametri
+		
+		
+		; restauram valoarea registrilor salvati pe stiva la apelul instructii PUSHAD folosind instructiunea POPAD
+		; aceasta instructiune ia valori de pe stiva si le completeaza in mai multi registrii printre care EAX, ECX, EDX si EBX
+		; este important ca inaintea unui apel al instructiunii POPAD sa ne asiguram ca exista suficiente valori 
+		; pe stiva pentru a fi incarcate in registrii (de exemplu ca anterior a fost apelata instructiunea PUSHA)
+		POPAD
+		
+		; acum valoarea registrului EAX a fost restaurata la valoarea de dinaintea apelului instructiunii PUSHAD 
+		
+		; exit(0)
+		push dword 0      ; punem pe stiva parametrul pentru exit
+		call [exit]       ; apelam exit pentru a incheia programul

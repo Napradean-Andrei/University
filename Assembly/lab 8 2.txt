@@ -1,0 +1,60 @@
+bits 32
+global start
+extern exit, fopen, fprintf, fclose
+import exit msvcrt.dll
+import fprintf msvcrt.dll
+import fopen msvcrt.dll
+import fclose msvcrt.dll
+segment data use32 class=data
+
+    text db "Ana are 3 mere si 2 pere",0
+    len equ ($-text)-1
+    filename db "file.txt",0
+    mode db "a+",0
+    file_descriptor dd -1
+    _offset db 0
+
+segment code use32 class=code
+start:
+    
+    mov EAX,0
+    mov EBX,0
+    mov ECX,0
+    mov EDX,0
+    
+    mov ECX,len
+    mov ESI,text
+    repeta:
+        lodsb
+        inc byte [_offset]
+        cmp AL,"0"
+        jl continue
+        cmp AL,"9"
+        ja continue
+        change:
+            mov EDI,text
+            add EDI,[_offset]
+            dec EDI
+            mov EAX,"C"
+            stosb
+        continue:
+    loop repeta
+    
+    push dword mode
+    push dword filename
+    call [fopen]
+    add ESP,4*2
+    
+    mov [file_descriptor],EAX
+    
+    push dword text
+    push dword [file_descriptor]
+    call [fprintf]
+    add ESP,4*2
+    
+    push dword [file_descriptor]
+    call [fclose]
+    add ESP,4
+    
+    push dword 0
+    call [exit]
