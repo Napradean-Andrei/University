@@ -1,0 +1,10 @@
+﻿  main.c
+  UI.c
+  OfferRepository.c
+  OfferController.c
+c:\users\andre\source\repos\lab 3-4\lab 3-4\offercontroller.c(77): warning C4101: 'o': unreferenced local variable
+  Offer.c
+c:\users\andre\source\repos\lab 3-4\lab 3-4\offer.c(40): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+  Generating Code...
+  Lab 3-4.vcxproj -> C:\Users\andre\source\repos\Lab 3-4\Debug\Lab 3-4.exe

@@ -1,0 +1,64 @@
+Stack: 
+AssgSt{id= a , expr= ArithmeticEx{e1= ConstantExp{number=2}, e2= ConstantExp{number=2}, operator= -'}}
+(IF(a) THEN(AssgSt{id= v , expr= ConstantExp{number=2}})ELSE(AssgSt{id= v , expr= ConstantExp{number=3}});Print(v))
+
+Sym table: 
+
+Out: 
+
+
+
+Stack: 
+(IF(a) THEN(AssgSt{id= v , expr= ConstantExp{number=2}})ELSE(AssgSt{id= v , expr= ConstantExp{number=3}});Print(v))
+
+Sym table: 
+a 0
+
+Out: 
+
+
+
+Stack: 
+IF(a) THEN(AssgSt{id= v , expr= ConstantExp{number=2}})ELSE(AssgSt{id= v , expr= ConstantExp{number=3}})
+Print(v)
+
+Sym table: 
+a 0
+
+Out: 
+
+
+
+Stack: 
+AssgSt{id= v , expr= ConstantExp{number=3}}
+Print(v)
+
+Sym table: 
+a 0
+
+Out: 
+
+
+
+Stack: 
+Print(v)
+
+Sym table: 
+a 0
+v 3
+
+Out: 
+
+
+
+Stack: 
+
+Sym table: 
+a 0
+v 3
+
+Out: 
+3
+
+
+

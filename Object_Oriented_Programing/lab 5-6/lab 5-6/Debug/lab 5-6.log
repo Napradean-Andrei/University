@@ -1,0 +1,47 @@
+﻿  UI.cpp
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(41): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(50): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(51): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(52): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(53): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(54): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(48): warning C4101: 'index': unreferenced local variable
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(67): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(80): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(81): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(82): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(83): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(84): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(94): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(95): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(96): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(97): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(98): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(99): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(109): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(144): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(155): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\andre\source\repos\lab 5-6\lab 5-6\ui.cpp(169): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+  lab 5-6.vcxproj -> C:\Users\andre\source\repos\lab 5-6\Debug\lab 5-6.exe

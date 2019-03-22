@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\andre\source\repos\project2\project2\source.cpp(56): warning C4018: '<': signed/unsigned mismatch
+c:\users\andre\source\repos\project2\project2\source.cpp(88): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Project2.vcxproj -> c:\Users\andre\source\repos\Project2\Debug\Project2.exe

@@ -1,0 +1,5 @@
+..\..\..\..\Desktop\TestPrep3\quickUI.h|"c:\Users\andre\Desktop\TestPrep3\quickUI.h" -o ".\GeneratedFiles\Debug\moc_quickUI.cpp" "-I.\GeneratedFiles" "-I." "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include\QtCore" "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include\QtGui" "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include\QtANGLE" "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include\QtWidgets" -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+test3prep.qrc|"c:\Users\andre\source\repos\test3prep\test3prep\test3prep.qrc" -o ".\GeneratedFiles\qrc_test3prep.cpp" --name test3prep
+test3prep.ui|"c:\Users\andre\source\repos\test3prep\test3prep\test3prep.ui" -o ".\GeneratedFiles\ui_test3prep.h"
+..\..\..\..\Desktop\TestPrep3\quickUI.ui|"c:\Users\andre\Desktop\TestPrep3\quickUI.ui" -o ".\GeneratedFiles\ui_quickUI.h"
+..\..\..\..\Desktop\TestPrep3\quickUI.qrc|"c:\Users\andre\Desktop\TestPrep3\quickUI.qrc" -o ".\GeneratedFiles\qrc_quickUI.cpp" --name quickUI

@@ -1,0 +1,29 @@
+<UI version="4.0" >
+ <class>Lab1214Class</class>
+ <widget class="QMainWindow" name="Lab1214Class" >
+  <property name="objectName" >
+   <string notr="true">Lab1214Class</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>1280</width>
+	<height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Lab1214</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="Lab1214.qrc"/>
+ </resources>
+ <connections/>
+</UI>

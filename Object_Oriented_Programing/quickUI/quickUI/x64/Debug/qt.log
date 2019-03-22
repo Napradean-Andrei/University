@@ -1,0 +1,3 @@
+quickUI.qrc|"c:\Users\andre\source\repos\quickUI\quickUI\quickUI.qrc" -o ".\GeneratedFiles\qrc_quickUI.cpp" --name quickUI
+quickUI.ui|"c:\Users\andre\source\repos\quickUI\quickUI\quickUI.ui" -o ".\GeneratedFiles\ui_quickUI.h"
+quickUI.h|"c:\Users\andre\source\repos\quickUI\quickUI\quickUI.h" -o ".\GeneratedFiles\Debug\moc_quickUI.cpp" "-I.\GeneratedFiles" "-I." "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include" "-I.\GeneratedFiles\Debug" "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include\QtCore" "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include\QtGui" "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include\QtANGLE" "-ID:\qt\5.11.0\5.11.0\msvc2017_64\include\QtWidgets" -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
